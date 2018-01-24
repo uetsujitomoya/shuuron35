@@ -587,9 +587,14 @@ Ericら
 
 以上のシグマ値法で換算した値を用いて、多変量解析をおこなうことによって、「悪いが1点、やや悪いが2点、……」のようなカテゴリー得点をカテゴリーの数字で代替する通例の手法よりも明快な解析結果が得られると言われている。
 
-ガウス誤差関数erf(x)=
+ガウスの誤差関数
+\begin{equation}
+  erf(x) = \frac{2}{\sqrt{\pi}}\int_0^x e^{-t^2} dt
+\end{equation}
 を用いると、標準正規分布の累積分布関数F(x)は
-
+\begin{equation}
+  F(x) = \frac{1}{2}(1+erf\frac{x}{\sqrt{2}})
+\end{equation}
 で表される。この逆関数\begin{equation}F^{-1}(x)\end{equation}を用いて、標準正規曲線の面積に対応する標準得点Z(p)は
 
 %Z(p)=-F-1(1-p)
@@ -600,7 +605,7 @@ Ericら
 
 でである。標準得点Zに対応する縦座標yは、標準正規曲線の確率密度を求める式によって表され、
 \begin{equation}
-y(Z)=\frac{2}{\sqrt{\pi}}\int_0^x e^{-t^2} dt
+y(Z)=\frac{1}{\sqrt{2\pi}}exp(-\frac{Z^2}{2})
 \end{equation}
 
 となる。
