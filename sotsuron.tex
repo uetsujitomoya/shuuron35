@@ -1,5 +1,6 @@
 \documentclass[shuuron]{kuee}
 \usepackage[dvipdfmx]{graphicx}
+\usepackage{lineno,hyperref}
 \usepackage{kueecite}
 \usepackage{url}
 
@@ -395,24 +396,36 @@ Ivey,A.E.\cite{ivey}のマイクロカウンセリングで示されている「
 \end{itemize}
 
 という分類を追加してほしいというコメントを得た．以上の詳細を図\ref{table:queCate}にまとめる。
-¥begin{table}
-¥caption{Category pattern of beginner counselor's utterances.}
-¥label{table:queCate}
-¥begin{center}
-%¥includegraphics[width=¥linewidth]{table2.png}
-¥begin{tabular}{|l|p{7cm}|} ¥hline
+\begin{table}
+\caption{Category pattern of beginner counselor's utterances.}
+\label{table:queCate}
+\begin{center}
+%\includegraphics[width=\linewidth]{table2.png}
+\begin{tabular}{|l|p{7cm}|} \hline
 Open-ended question & The question that is 5W1H,
 
 which includes "where," "when," "who,"
 
-"what," "why" and "how" ¥¥ ¥hline
-Close-ended question  & The question that it is answered in Yes/No or is easily answered only with a word ¥¥ ¥hline
-Back-channel feedback & The verbal response of someone during a conversation ¥¥ ¥hline
-Interpretation  & The confirmation that how a counselor interprets the problemof the client ¥¥ ¥hline
-Idol talk & Informal type of discourse ¥¥ ¥hline
-¥end{tabular}
-¥end{center}
-¥end{table}
+"what," "why" and "how" \\ \hline
+Close-ended question  & The question that it is answered in Yes/No or is easily answered only with a word \\ \hline
+Back-channel feedback & The verbal response of someone during a conversation \\ \hline
+Interpretation  & The confirmation that how a counselor interprets the problemof the client \\ \hline
+Idol talk & Informal type of discourse \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[htb]
+  \begin{tabular}{lcrr}
+    メニュー & サイズ & 値段 & カロリー \\
+    牛丼 & 並盛 & 500円 & 600 kcal \\
+    牛丼 & 大盛 & 1,000円 & 800 kcal \\
+    牛丼 & 特盛 & 1,500円 & 1,000 kcal \\
+    牛皿 & 並盛 & 300円 & 250 kcal \\
+    牛皿 & 大盛 & 700円 & 300 kcal \\
+    牛皿 & 特盛 & 1,000円 & 350 kcal
+  \end{tabular}
+\end{table}
 
 クライエントの回答に関する分類とは異なり，カウンセラーの質問に関する分類は1文単位ではなく1発言単位での分類でよいというコメントを得た．
 
@@ -727,19 +740,19 @@ y(Z)=\frac{1}{\sqrt{2\pi}}exp(-\frac{Z^2}{2})
 
 まず評価者は，積み重ねグラフ，帯グラフそれぞれについて，あらかじめ表示されている可視化結果に対して，時系列に沿ってマウスカーソルを合わせることで，カウンセリングの流れを一通り確認する．その後，6段階評価によるアンケート質問に回答を行う．6段階評価のアンケートの質問項目，および各質問に対する選択肢とその配点をTable 1に示す．Table 1の各質問項目は，積み重ねグラフ，帯グラフそれぞれに対して行った．積み重ねグラフ，帯グラフについて，各質問項目に対する6段階評価の平均値の結果をFig.\ref{fig:keijouAnketo}に示す．Fig.5 の結果より，全ての項目において，積み重ねグラフより帯グラフの方が優れていることがわかった．
 
-% ¥begin{table}
-% ¥caption{Three life task based on Adler psychology.}
-% ¥label{table:keijouAnketo}
-% ¥begin{center}
-% %     ¥includegraphics[width=¥linewidth]{table1.png}
-% ¥begin{tabular}{|l|p{7cm}|} ¥hline
-% Work task & Impermanent human relationship ¥¥ ¥hline
-% Friendship task  & Permanent, and do not fate together human relationship ¥¥ ¥hline
-% Love or Family task & Fate together human relationship ¥¥ ¥hline
+% \begin{table}
+% \caption{Three life task based on Adler psychology.}
+% \label{table:keijouAnketo}
+% \begin{center}
+% %     \includegraphics[width=\linewidth]{table1.png}
+% \begin{tabular}{|l|p{7cm}|} \hline
+% Work task & Impermanent human relationship \\ \hline
+% Friendship task  & Permanent, and do not fate together human relationship \\ \hline
+% Love or Family task & Fate together human relationship \\ \hline
 %
-% ¥end{tabular}
-% ¥end{center}
-% ¥end{table}
+% \end{tabular}
+% \end{center}
+% \end{table}
 
 
 \begin{figure}
@@ -857,19 +870,19 @@ y(Z)=\frac{1}{\sqrt{2\pi}}exp(-\frac{Z^2}{2})
 
 各質問に対する回答においてシグマ値法で点数を算出し、その点数を用いてt検定を行った結果を図\ref{table:sigma}に示す。
 
-¥begin{table}
-¥caption{Three life task based on Adler psychology.}
-¥label{table:sigma}
-¥begin{center}
-%     ¥includegraphics[width=¥linewidth]{table1.png}
-¥begin{tabular}{|l|p{7cm}|} ¥hline
-% Work task & Impermanent human relationship ¥¥ ¥hline
-% Friendship task  & Permanent, and do not fate together human relationship ¥¥ ¥hline
-% Love or Family task & Fate together human relationship ¥¥ ¥hline
+\begin{table}
+\caption{Three life task based on Adler psychology.}
+\label{table:sigma}
+\begin{center}
+%     \includegraphics[width=\linewidth]{table1.png}
+\begin{tabular}{|l|p{7cm}|} \hline
+% Work task & Impermanent human relationship \\ \hline
+% Friendship task  & Permanent, and do not fate together human relationship \\ \hline
+% Love or Family task & Fate together human relationship \\ \hline
 
-¥end{tabular}
-¥end{center}
-¥end{table}
+\end{tabular}
+\end{center}
+\end{table}
 
 
 
