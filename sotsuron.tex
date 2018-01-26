@@ -374,7 +374,31 @@ Ivey,A.E.\cite{ivey}のマイクロカウンセリングで示されている「
 たとえば，「うちの夫は仕事にいくのを嫌がって，毎朝起きてこないんです．
 それを見ているだけで腹が立つんです．自分の同僚が同じように仕事に行きたいですが
 朝起きなかったという話を聞いても，さほど腹は立ちませんが，夫がそ
-うなるのは絶対に許せない」という文章について，専門家は次の通りに分類する．第1文は愛のタスク，第2文は仕事のタスク，第3文は愛のタスクに分類する．
+うなるのは絶対に許せない」という文章について，熟練のカウンセラーは次の通りに分類する．第1文は愛のタスク，第2文は仕事のタスク，第3文は愛のタスクに分類する．回答カテゴリー一覧を表\ref{fig:ansCate}に記す。
+
+\begin{table}
+  \caption{回答カテゴリー一覧}
+  \label{table:ansCate}
+  \begin{center}
+    %\includegraphics[width=\linewidth]{table2.png}
+    \begin{tabular}{|l|p{7cm}|} \hline
+      愛 & クライエントの恋愛対象や家族(の仕事も含む)に関すること
+
+\\ \hline
+      交友  & クライエントの友達(の仕事も含む)に関すること
+
+ \\ \hline
+    仕事 & クライエントの上司、業務の客など、クライエント自身の仕事に関すること
+
+ \\ \hline
+      自己  &  クライエント自身のセルフタスク・症状などに関すること
+\\ \hline
+      スピリチュアル & 神や超越的な存在とのつきあい
+ \\ \hline
+    \end{tabular}
+  \end{center}
+\end{table}
+
 
 原文から，カウンセラーからクライエントへの質問事項の分類の指標として，クライエントの回答をうながしてクライエント自身も気づいていなかったことを認知させるのが大事であるので，それぞれの発言量の可視化の実装を盛り込むべきであるというコメントを得た．ここから得られる要件は，クライエントの回答の分量に応じて，それをはさむカウンセラーの質問の縦棒をグラフ上で変えることであると考えた．
 
@@ -402,28 +426,30 @@ Ivey,A.E.\cite{ivey}のマイクロカウンセリングで示されている「
   \begin{center}
     %\includegraphics[width=\linewidth]{table2.png}
     \begin{tabular}{|l|p{7cm}|} \hline
-      開かれた質問 & 「なぜ」「何」など,
-
-      5W1Hで表されるモノ\\ \hline
-      Close-ended question  & The question that it is answered in Yes/No or is easily answered only with a word \\ \hline
-      Back-channel feedback & The verbal response of someone during a conversation \\ \hline
-      Interpretation  & The confirmation that how a counselor interprets the problemof the client \\ \hline
-      Idol talk & Informal type of discourse \\ \hline
+      開かれた質問 & 5W1H(「何処で」「誰と」「なぜ」等)で問うことで、クライエントが自ら回答内容を
+　考えていくための情報収集を目的とした質問
+\\ \hline
+      閉じられた質問  & 「昨日母と話しましたか?」等、Yes/Noで答えさせる質問
+ \\ \hline
+    相槌 & 「はい」「そうですね」等
+ \\ \hline
+      解釈と助言  &  カウンセラーの考えである解釈の投与、および助言\\ \hline
+      世間話 & 上記以外の、カウンセラーの発話内容に直接は結びつかないもの \\ \hline
     \end{tabular}
   \end{center}
 \end{table}
 
-\begin{table}[htb]
-  \begin{tabular}{lcrr}
-    メニュー & サイズ & 値段 & カロリー \\
-    牛丼 & 並盛 & 500円 & 600 kcal \\
-    牛丼 & 大盛 & 1,000円 & 800 kcal \\
-    牛丼 & 特盛 & 1,500円 & 1,000 kcal \\
-    牛皿 & 並盛 & 300円 & 250 kcal \\
-    牛皿 & 大盛 & 700円 & 300 kcal \\
-    牛皿 & 特盛 & 1,000円 & 350 kcal
-  \end{tabular}
-\end{table}
+% \begin{table}[htb]
+%   \begin{tabular}{lcrr}
+%     メニュー & サイズ & 値段 & カロリー \\
+%     牛丼 & 並盛 & 500円 & 600 kcal \\
+%     牛丼 & 大盛 & 1,000円 & 800 kcal \\
+%     牛丼 & 特盛 & 1,500円 & 1,000 kcal \\
+%     牛皿 & 並盛 & 300円 & 250 kcal \\
+%     牛皿 & 大盛 & 700円 & 300 kcal \\
+%     牛皿 & 特盛 & 1,000円 & 350 kcal
+%   \end{tabular}
+% \end{table}
 
 クライエントの回答に関する分類とは異なり，カウンセラーの質問に関する分類は1文単位ではなく1発言単位での分類でよいというコメントを得た．
 
