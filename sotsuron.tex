@@ -699,19 +699,20 @@ y(Z)=\frac{1}{\sqrt{2\pi}}exp(-\frac{Z^2}{2})
 
 まず評価者は，積み重ねグラフ，帯グラフそれぞれについて，あらかじめ表示されている可視化結果に対して，時系列に沿ってマウスカーソルを合わせることで，カウンセリングの流れを一通り確認する．その後，6段階評価によるアンケート質問に回答を行う．6段階評価のアンケートの質問項目，および各質問に対する選択肢とその配点をTable 1に示す．Table 1の各質問項目は，積み重ねグラフ，帯グラフそれぞれに対して行った．積み重ねグラフ，帯グラフについて，各質問項目に対する6段階評価の平均値の結果をFig.\ref{fig:keijouAnketo}に示す．Fig.5 の結果より，全ての項目において，積み重ねグラフより帯グラフの方が優れていることがわかった．
 
-¥begin{table}
-¥caption{Three life task based on Adler psychology.}
-¥label{table:keijouAnketo}
-¥begin{center}
-%     ¥includegraphics[width=¥linewidth]{table1.png}
-¥begin{tabular}{|l|p{7cm}|} ¥hline
-Work task & Impermanent human relationship ¥¥ ¥hline
-Friendship task  & Permanent, and do not fate together human relationship ¥¥ ¥hline
-Love or Family task & Fate together human relationship ¥¥ ¥hline
+% ¥begin{table}
+% ¥caption{Three life task based on Adler psychology.}
+% ¥label{table:keijouAnketo}
+% ¥begin{center}
+% %     ¥includegraphics[width=¥linewidth]{table1.png}
+% ¥begin{tabular}{|l|p{7cm}|} ¥hline
+% Work task & Impermanent human relationship ¥¥ ¥hline
+% Friendship task  & Permanent, and do not fate together human relationship ¥¥ ¥hline
+% Love or Family task & Fate together human relationship ¥¥ ¥hline
+%
+% ¥end{tabular}
+% ¥end{center}
+% ¥end{table}
 
-¥end{tabular}
-¥end{center}
-¥end{table}
 
 \begin{figure}
    \begin{center}
@@ -818,7 +819,7 @@ Love or Family task & Fate together human relationship ¥¥ ¥hline
 
 \begin{figure}
    \begin{center}
-     \includegraphics[width=\linewidth]{genbunAnketo.png}
+     % \includegraphics[width=\linewidth]{genbunAnketo.png}
    \end{center}
    \caption{原文と比較した際の6段階評価のアンケート回答結果}
    \label{fig:genbunAnketo}
@@ -834,9 +835,9 @@ Love or Family task & Fate together human relationship ¥¥ ¥hline
 ¥begin{center}
 %     ¥includegraphics[width=¥linewidth]{table1.png}
 ¥begin{tabular}{|l|p{7cm}|} ¥hline
-Work task & Impermanent human relationship ¥¥ ¥hline
-Friendship task  & Permanent, and do not fate together human relationship ¥¥ ¥hline
-Love or Family task & Fate together human relationship ¥¥ ¥hline
+% Work task & Impermanent human relationship ¥¥ ¥hline
+% Friendship task  & Permanent, and do not fate together human relationship ¥¥ ¥hline
+% Love or Family task & Fate together human relationship ¥¥ ¥hline
 
 ¥end{tabular}
 ¥end{center}
@@ -897,23 +898,50 @@ Love or Family task & Fate together human relationship ¥¥ ¥hline
 
 \section{要件抽出}
 
-クライアントの認知補正の分析は，何らかの形でのように述べたクライアントの言動のカテゴリを使用 図．2 動作は，クライアントの周りの人々が行っていたものが挙げられる． 鎌田\cite{kamata2002}によると，カウンセラーの言動や感情を重要な役割は，クライアントが自己決意と自己責任を取ると不当に他人に介入することなく，他者との協力関係を形成することができるようにクライアントを奨励することである．だから，不当に他人の言動や感情に介入することなく，クライアント自身の言動や感情を見つけることが重要である．
+% クライアントの認知補正の分析は，何らかの形でのように述べたクライアントの言動のカテゴリを使用 図．2 動作は，クライアントの周りの人々が行っていたものが挙げられる． 鎌田\cite{kamata2002}によると，カウンセラーの言動や感情を重要な役割は，クライアントが自己決意と自己責任を取ると不当に他人に介入することなく，他者との協力関係を形成することができるようにクライアントを奨励することである．だから，不当に他人の言動や感情に介入することなく，クライアント自身の言動や感情を見つけることが重要である．
+%
+%   カウンセリングで，「自分の言動を変えるのではなく，相手の言動を変えることに興味がある人は，認知を修正するに進んでいる」と言われている．ときに，クライアントの答え「クライアント自身の言動」ではなく答えるクライアントの認識の修正が進んでいると言われて， 『クライアントの周りの人々の言動を．』
 
-  カウンセリングで，「自分の言動を変えるのではなく，相手の言動を変えることに興味がある人は，認知を修正するに進んでいる」と言われている．ときに，クライアントの答え「クライアント自身の言動」ではなく答えるクライアントの認識の修正が進んでいると言われて， 『クライアントの周りの人々の言動を．』
+\subsubsection{矢印に
+2通りの意味
+}
+
+
+ 「現代アドラー心理学を1980年代に日本に初めて導入した野田\cite{zokad}は、神経症者の基本的な心理的構えを「悪いあの人」「かわいそうな私」と示している。神経症者はこの「悪いあの人」「かわいそうな私」を証明するための言動を形成し、社会から離れていようとする。」これを、責任転嫁を目的とした自己欺瞞(self-deception)と呼ぶ\cite{Darshana}。しかし「悪いあの人」と言うことでクライエントは相手に自分の心を支配される。「つまり、相手の言動次第で自分の心の安定が左右される」。これを「状況依存(context-dependent)」と呼ぶ。
+
+ この状態が続くと相手が変わらない限りは自分は幸せではないという思考の元過ごすことになり、「自己努力」での改善を放棄してしまう。今回カウンセリングデータを提供したヨーガ療法では、クライエントがこのような「状況依存」から抜け出し、「自己努力」で自身の心の安定をつくることができるように援助することを目標としている。つまり、「今ここで私にできること」をクライエントが自身で模索し実践できるように、カウンセラーがクライエントを常に勇気づけ(encouraging)することが目標である。この方向と一致する心理学として、「全ては個人が選択決断している」という実存主義(existentialism)的立場をとるアドラー心理学が挙げられる。
+
+ \begin{itemize}
+ \item 「自己努力」（感謝・貢献）「私がBさんにこうしてあげた」認知の修正が進んでいる
+\item 「状況依存(context-dependent)」（「悪いあの人」「かわいそうな私」文句・批判・愚痴）「私がBさんに思い通りになってほしいと思う」認知の修正が進んでいない
+ \end{itemize}
 
   我々は，または「クライアント自身の言動」「クライアントの周りの人の言動」のデータを可視化することにより，クライアントの知覚の状態を確認できることを考えた．一方，我々は年代順に会話内容をテキストで言動の対象と述語を可視化することにより，上記のニーズを満たすことができると考えた．このようなニーズに応えて，我々は言動の対象とオブジェクトの情報を含む人間関係チャートの時系列を可視化してきた．
 
+図\ref{fig:arrow}に、鎌田\cite{鎌田穣2002臨床}が提唱した、クライエントの認知の修正の判断のための矢印技法に現れる、認知の修正が進んでいる時に現れる矢印と進んでいない時に現れる矢印を示す。
 
-  （責任転嫁・状況依存）：批判、愚痴が中心
-  （１）「クライエント自身」の内的感情・「クライエントの周囲の人」に向けられていない「クラ
-  イエント」一人の行動
-  （２）「クライエント自身」から「クライエントの周囲の人」へのポジティブな行動
+\begin{figure}
+   \begin{center}
+     \includegraphics[width=\linewidth]{arrow.png}
+   \end{center}
+   \caption{認知の修正が進んでいる時に現れる矢印と進んでいない時に現れる矢印}
+   \label{fig:arrow}
+ \end{figure}
 
-  （責任転嫁・状況依存）：批判、愚痴が中心
-  （３）「周囲の人」の内的な陰性感情の予測や、他者に向けられていないその
-  「周囲の人」一人のネガティブな行動
-  （４）「クライエントの周囲の人」から「クライエント自身」へのネガティブな行動
-  （５）「クライエントの周囲の人」から「クライエントの周囲の人」へのネガティブな行動
+ \begin{enumerate}
+   \item 「クライエント自身」の内的感情・「クライエントの周囲の人」に向けられていない「クラ
+   イエント」一人の行動
+   \item 「クライエント自身」から「クライエントの周囲の人」へのポジティブな行動
+
+
+   \item 「周囲の人」の内的な陰性感情の予測や、他者に向けられていないその
+   「周囲の人」一人のネガティブな行動
+   \item 「クライエントの周囲の人」から「クライエント自身」へのネガティブな行動
+   \item 「クライエントの周囲の人」から「クライエントの周囲の人」へのネガティブな行動
+
+ \end{enumerate}
+  上記のうち、1と2は「自己努力」、3,4,5は「状況依存」に分類される。
+
 
 \section{前処理の開発}
 
@@ -1082,19 +1110,7 @@ Fig. 7 Full view of our character chart visualization. If we click a circle or a
 \item 原文表示での質の確認により，認知の修正の進行が確認できた
  \end{itemize}
 
-\subsubsection{矢印に
-2通りの意味
-}
 
-
- 「現代アドラー心理学を1980年代に日本に初めて導入した野田\cite{zokad}は、神経症者の基本的な心理的構えを「悪いあの人」「かわいそうな私」と示している。神経症者はこの「悪いあの人」「かわいそうな私」を証明するための言動を形成し、社会から離れていようとする。」これを、責任転嫁を目的とした自己欺瞞(self-deception)と呼ぶ\cite{Darshana}。しかし「悪いあの人」と言うことでクライエントは相手に自分の心を支配される。「つまり、相手の言動次第で自分の心の安定が左右される」。これを「状況依存(context-dependent)」と呼ぶ。
-
- この状態が続くと相手が変わらない限りは自分は幸せではないという思考の元過ごすことになり、「自己努力」での改善を放棄してしまう。今回カウンセリングデータを提供したヨーガ療法では、クライエントがこのような「状況依存」から抜け出し、「自己努力」で自身の心の安定をつくることができるように援助することを目標としている。つまり、「今ここで私にできること」をクライエントが自身で模索し実践できるように、カウンセラーがクライエントを常に勇気づけ(encouraging)することが目標である。この方向と一致する心理学として、「全ては個人が選択決断している」という実存主義(existentialism)的立場をとるアドラー心理学が挙げられる。
-
- \begin{itemize}
- \item 「自己努力」（感謝・貢献）「私がBさんにこうしてあげた」認知の修正が進んでいる
-\item 「状況依存(context-dependent)」（「悪いあの人」「かわいそうな私」文句・批判・愚痴）「私がBさんに思い通りになってほしいと思う」認知の修正が進んでいない
- \end{itemize}
 
 
 
