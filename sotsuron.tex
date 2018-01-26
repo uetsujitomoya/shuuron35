@@ -783,7 +783,7 @@ Ericら\cite{taskdriven}
   \begin{center}
     \includegraphics[width=\linewidth]{keijouAnketo.png}
   \end{center}
-  \caption{Average points of 5-grade evaluation}
+  \caption{形状比較実験の6段階評価の平均値}
   \label{fig:keijouAnketo}
 \end{figure}
 
@@ -907,25 +907,41 @@ Ericら\cite{taskdriven}
   \label{fig:q3}
 \end{figure}
 
-前前節で述べたシグマ値法を用いて
-
-各質問に対する回答においてシグマ値法で点数を算出し、その点数を用いてt検定を行った結果を表\ref{table:sigma}に示す。
+前前節で述べたシグマ値法を用いて、
+各質問に対する回答においてシグマ値法で点数を算出した結果を表\ref{table:sigma}, \ref{table:sigma2}に示す。
+その点数を用いてt検定を行った結果、Q1,2に関してはt=0.0432、Q3に関してはt=0.0309となり、原文を呼んで評価したものと提案システムで評価したものとの間に有意差が見られた。
 
 \begin{table}
-  \caption{各質問に対する回答においてシグマ値法で点数を算出し、その点数を用いてt検定を行った結果}
+  \caption{質問1,2に対する回答においてシグマ値法で算出した点数}
   \label{table:sigma}
   \begin{center}
     %     \includegraphics[width=\linewidth]{table1.png}
     \begin{tabular}{|l|r|} \hline
-      Work task & Impermanent human relationship \\ \hline
-      Friendship task  & Permanent, and do not fate together human relationship \\ \hline
-      Love or Family task & Fate together human relationship \\ \hline
-
+      非常にわかりやすい & 1.159 \\ \hline
+      わかりやすい  & 0.129 \\ \hline
+      どちらかと言えばわかりやすい & なし \\ \hline
+      どちらかと言えばわかりにくい & -0.532 \\ \hline
+      わかりにくい  & -1.400 \\ \hline
+      非常にわかりにくい & なし \\ \hline
     \end{tabular}
   \end{center}
 \end{table}
 
-
+\begin{table}
+  \caption{質問3に対する回答においてシグマ値法で算出した点数}
+  \label{table:sigma2}
+  \begin{center}
+    %     \includegraphics[width=\linewidth]{table1.png}
+    \begin{tabular}{|l|r|} \hline
+      強くそう思う & 0.966 \\ \hline
+      そう思う  & 0.129 \\ \hline
+      どちらかと言えばそう思う & -0.677 \\ \hline
+      どちらかと言えばそう思わない & -1.045 \\ \hline
+      そう思わない  & なし \\ \hline
+      強くそう思わない & -1.755 \\ \hline
+    \end{tabular}
+  \end{center}
+\end{table}
 
 
 \begin{enumerate}
