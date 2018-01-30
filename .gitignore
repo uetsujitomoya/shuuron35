@@ -112,7 +112,6 @@ sympy-plots-for-*.tex/
 *.pdf
 *.sh
 *.cls
-*.bst
 *.fff
 *.eps
 *.xbb
