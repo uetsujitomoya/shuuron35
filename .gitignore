@@ -111,9 +111,9 @@ sympy-plots-for-*.tex/
 *.docx
 *.pdf
 *.sh
-*.cls
 *.fff
 *.eps
 *.xbb
 *.ris
 *.pptx
+*.ris
